@@ -5,23 +5,65 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!-- CHECK TITLE -->
   <title>Welcome to penparts.net</title>
-
+<!-- CHECK STYLESHEET -->
   <link rel="stylesheet" href="css/main.css">
+<!-- PRIMITIVE STYLESHEET -->
+  <link rel="stylesheet" href="css/primitive.css">
+<!-- favicon -->
   <link rel="icon" href="images/floppy.png">
 </head>
 
 <body>
+<!--
+  <main> div must be outer most shell.
+  links to css.
+  max-width: 1200px;
+  margin: 0 auto;
+-->
+  <main>
 
-  <header class="row">
-      
-    <div class="column">
-        <h1>Hello Everbody, It's Tony. A Website Is On It's Way!</h1>
-    </div>
+    <header class="row">
+        
+      <div class="column">
+        <navbar>
+          <div class="column">
+            <h5>this will be navbar</h5>
+          </div>
+        </navbar>
+      </div>
 
-  </header>
+    </header>
 
+
+    <section class="row">
+
+      <aside class="column">
+        <h1>100% 1 row 1 column</h1>
+        <h2>aside</h2>
+      </aside>
+
+      <article class="column">
+        <h1>100% 1 row 1 column</h1>
+        <h2>article</h2>
+      </article>
+
+      <article class="column">
+        <h1>100% 1 row 1 column</h1>
+        <h2>article</h2>
+      </article>
+  
+    </section>
+
+    <footer class="row">
+      <div class="column">
+        <h1>100% 1 row 1 column</h1>
+        <h2>footer</h2>
+      </div>
+    </footer>
+
+  </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
